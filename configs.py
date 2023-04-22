@@ -8,19 +8,19 @@ import os
 
 
 class Config(object):
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	API_ID = int(os.environ.get("API_ID", 12345))
-	API_HASH = os.environ.get("API_HASH")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN","6060441968:AAErbNE9owZVcWiaSxCkKJbqM_LFdT4Icak")
+	API_ID = int(os.environ.get("API_ID", 16743442))
+	API_HASH = os.environ.get("API_HASH","12bbd720f4097ba7713c5e40a11dfd2a")
 	STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "NoNeed")
 	STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", "NoNeed")
-	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
+	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001710461452"))
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
 	PRESET = os.environ.get("PRESET", "ultrafast")
-	OWNER_ID = int(os.environ.get("OWNER_ID", 1445283714))
+	OWNER_ID = int(os.environ.get("OWNER_ID", 5885920877))
 	CAPTION = "By @AHToolsBot"
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "VideoWatermark_Bot")
-	DATABASE_URL = os.environ.get("DATABASE_URL")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "AnimeCampusTestBot")
+	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
 	ALLOW_UPLOAD_TO_STREAMTAPE = bool(os.environ.get("ALLOW_UPLOAD_TO_STREAMTAPE", False))
 	USAGE_WATERMARK_ADDER = """
@@ -31,7 +31,7 @@ Hi, I am Video Watermark Adder Bot!
 
 __Note: I can only process one video at a time. As my server is Heroku, my health is not good. If you have any issues with Adding Watermark to a Video, then please Report at [Support Group](https://t.me/linux_repo).__
 
-Desgined by @AbirHasan2005
+Desgined by @Campus_Bot_Updates
 """
 	PROGRESS = """
 Percentage : {0}%
