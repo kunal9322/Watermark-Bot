@@ -8,5 +8,4 @@ aiofiles
 aiohttp
 dnspython
 psutil
-
 ffmpeg
